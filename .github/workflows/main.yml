@@ -37,7 +37,7 @@ jobs:
         id: cypress
         uses: betrybe/cypress-evaluator-action@v4
         with:
-          repository-test-name: 'betrybe/sd-0x-facebook-signup-tests'
+          repository-test-name: 'betrybe/sd-0x-project-facebook-signup-tests'
           repository-test-branch: 'master'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
